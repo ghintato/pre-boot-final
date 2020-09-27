@@ -5,22 +5,32 @@
 
 .nav-item a {
 color: black;
+font-weight: bold;
 padding-top: 30px;
 padding-bottom: 30px;
-margin: 15px;
+
   }
 
+a {
+    color: black;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
   .nav-item a:hover {
+      color: black;
       text-decoration: underline;
   }
 
   #logo {
       position: absolute;
-      margin: 30px;
+      margin: 15px;
   }
 
   .carousel-item {
-      height: 600px;
+      height: 500px;
       overflow: hidden;
   }
 
@@ -30,10 +40,12 @@ margin: 15px;
     margin: 10px;
     border-radius: 50%;
   }
-
+/* 
   .card {
-      margin: 20px;
+      margin: 10px;
+      margin-left: 30px; */
   }
+
 
   .top-3 {
       align-items: center;
@@ -44,4 +56,18 @@ margin: 15px;
       font-weight: bold;
       padding: 10px;
       margin-top: 20px;
+      margin-left: 20px;
+  }
+
+  .postpage{
+    border-bottom: 1px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .gallery img {
+      max-width: 100%;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      overflow: hidden;
   }
