@@ -40,11 +40,6 @@ a:hover{
     margin: 10px;
     border-radius: 50%;
   }
-/* 
-  .card {
-      margin: 10px;
-      margin-left: 30px; */
-  }
 
 
   .top-3 {
@@ -70,4 +65,35 @@ a:hover{
       margin-top: 15px;
       margin-bottom: 10px;
       overflow: hidden;
+  }
+
+  p.justified{
+      text-align: justify;
+  }
+
+  ::selection {
+    color: orange;
+    background: white;
+  }
+
+  ::-moz-selection  {
+    color: orange;
+    background: white;
+  }
+
+  .breadcrumb {
+    background-color: transparent;
+  }
+
+  #atriclepages {
+    margin-left: 1000px
+  }
+
+  footer {
+      border-top: 1px solid black;
+      margin-top: 20px;
+  }
+
+  input[type="checkbox"] { /* change "blue" browser chrome to yellow */
+    filter: invert(0%) hue-rotate(180deg) brightness(1.7);
   }
