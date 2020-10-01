@@ -33,6 +33,7 @@
         <a class="nav-link" href="aboutus.html">About Us</a>
     </ul>
 
+  </div>
 
     <div class="container">
       <nav aria-label="breadcrumb">
@@ -43,31 +44,28 @@
       </nav>
     </div>
 
-    <div class="row">
-      <div class="col-1"></div>
-      <div class="col-10">
-      <div id="chatbox-field">
+    <div class="container-md">
+        <div id="chatbox-field">
 
 
-      </div> 
-        <div id="chatbox-input">
-          <div class="row"><div class="form-group ml-3 mt-3 col-3">
-            <input id="chat-name" type="username" class="form-control" placeholder="Username" required>
-          </div>
+
         </div>
-          <div class="row">
-            <div class="form-group ml-3 mt-1 col-9">
-            <input id="chat-message" type="text" class="form-control">
-          </div>
-            <div class="col-2 mt-1"><button id="send-to-chat" type="submit" class="btn btn-light">Send</button>
-          
-          </div>
-        </div>
-     
+        <form action="" id="chat-form">
+            <div class="row">
+              <div class="form-group ml-3 mt-3 col-3">
+                <input id="chat-name" type="username" class="form-control" placeholder="Username" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group ml-3 mt-1 col-9">
+                <textarea id="chat-message" type="text" class="form-control"></textarea>
+              </div>
+              <div class="col-2 mt-1">
+                <input type="submit" class="btn btn-light" value="Send">
+              </div>
+            </div>
+        </form>
       </div>
-      <div class="col-1"></div>
-      </div>
-    </div>
 
 
 
