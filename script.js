@@ -5,6 +5,26 @@ $(function () {
 
 // chat
 
+$('#chat-form').submit(function(){
+    var chatName = $('#chat-name').val();
+    var chatMessage = $('#chat-message').val();
+    var dt = new Date();
+    var currentdate = new Date(); 
+    var datetime = "" + currentdate.getDate() + "/"
+                + (currentdate.getMonth()+1)  + "/" 
+                + currentdate.getFullYear() + " @ "  
+                + currentdate.getHours() + ":"  
+                + currentdate.getMinutes() + ":" 
+                + currentdate.getSeconds();
+
+    $('#chatbox-field').append('<p class="m-3"><b>' + chatName + '</b><span class="mx-5">'+ datetime + '</span></p><p id="msg" class="mb-3">' + chatMessage + '</p><p></p>');
+    $('#chat-name').val('');
+    $('#chat-message').val('');
+
+    return false;
+})
+
+
 
 
 
