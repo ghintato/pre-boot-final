@@ -8,7 +8,6 @@ $(function () {
 $('#chat-form').submit(function(){
     var chatName = $('#chat-name').val();
     var chatMessage = $('#chat-message').val();
-    var dt = new Date();
     var currentdate = new Date(); 
     var datetime = "" + currentdate.getDate() + "/"
                 + (currentdate.getMonth()+1)  + "/" 
